@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/android_background">
+    
+    <!--  @android:color/black" -->
+
+    <Button
+        android:id="@+id/bSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bBrowse"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="Search Courses" />
+
+    <Button
+        android:id="@+id/bTimetable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Show Timetable" />
+
+    <Button
+        android:id="@+id/bBrowse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bTimetable"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="Browse Courses by Year" />
+
+    <Button
+        android:id="@+id/bDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/bTimetable"
+        android:text="Re-download and Update data" 
+     />
+
+</RelativeLayout>

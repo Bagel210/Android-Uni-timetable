@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/bLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="57dp"
+        android:layout_marginTop="186dp"
+        android:text="Show location" />
+
+     <Button
+         android:id="@+id/bOK"
+         android:layout_width="100px"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/bLoc"
+         android:layout_alignBottom="@+id/bLoc"
+         android:layout_toLeftOf="@+id/bLoc"
+         android:text=" Ok " />
+
+     <TextView
+         android:id="@+id/tv1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/bOK"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="46dp"
+         android:text="Location" />
+ 
+</RelativeLayout>
